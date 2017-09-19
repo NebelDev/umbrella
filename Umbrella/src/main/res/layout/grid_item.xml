@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/cell0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:layout_toEndOf="@+id/relativeLayout4"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/tb_image_0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/tb_0"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/weather_cloudy" />
+
+        <TextView
+            android:id="@+id/tb_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="00:00 AM"
+            android:textAppearance="@android:style/TextAppearance.Material.Body1" />
+
+        <TextView
+            android:id="@+id/tb_degree_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tb_image_0"
+            android:layout_centerHorizontal="true"
+            android:text="1" />
+    </RelativeLayout>
+</LinearLayout>

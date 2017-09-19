@@ -1,3 +1,21 @@
 <resources>
-  <string name="app_name">Umbrella</string>
+    <string name="app_name">Umbrella</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_title_display_name">Zip</string>
+    <string name="pref_default_display_name">95116</string>
+
+    <string name="pref_title_add_friends_to_messages">Units</string>
+    <string-array name="pref_example_list_titles">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>>
+    </string-array>
+
 </resources>
